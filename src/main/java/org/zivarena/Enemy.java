@@ -13,16 +13,16 @@ public class Enemy extends Object {
     }
     public void UpdatePosition(Vector2 playerPos){
         if(super.position.x() - playerPos.x() > 25){
-            super.position.x(super.position.x() - 200 * GetFrameTime());
+            super.position.x(super.position.x() - speed * GetFrameTime());
         }
         else if(super.position.x() - playerPos.x() < -25){
-            super.position.x(super.position.x() + 200 * GetFrameTime());
+            super.position.x(super.position.x() + speed * GetFrameTime());
         }
         if(super.position.y() - playerPos.y() > 25){
-            super.position.y(super.position.y() - 200 * GetFrameTime());
+            super.position.y(super.position.y() - speed * GetFrameTime());
         }
         else if(super.position.y() - playerPos.y() < -25){
-            super.position.y(super.position.y() + 200 * GetFrameTime());
+            super.position.y(super.position.y() + speed * GetFrameTime());
         }
     }
 }

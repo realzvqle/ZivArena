@@ -5,7 +5,7 @@ import static com.raylib.Raylib.*;
 public class Object {
     public Vector2 position;
     public Vector2 size;
-    private Color color;
+    private final Color color;
     public Object(float positionX, float positionY, float sizeX, float sizeY, Color color){
         this.position = new Vector2();
         this.size = new Vector2();
