@@ -22,7 +22,7 @@ tasks.test {
 
 tasks.named<com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar>("shadowJar") {
     archiveBaseName.set("arena");
-    archiveVersion.set(version);
+    archiveVersion.set("SNAPSHOT");
     manifest {
         attributes["Main-Class"] = "org.zivarena.Main"
     }
