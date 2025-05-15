@@ -8,17 +8,17 @@ import static com.raylib.Raylib.CloseWindow;
 public class Game {
     private final Window window;
     Player player;
-    Enemy enemy;
+    Enemies enemies;
     public Game(){
         window = new Window(1600, 900, "Zvqles Arena");
         player = new Player(window.w() / 2, window.h() / 2, 25);
-        enemy = new Enemy(window.w() / 3, window.h() / 3, 25, RED);
+        enemies = new Enemies();
     }
     public void StartGameLoop(){
         while(window.WindowLoop()){
             ClearBackground(BLACK);
             player.UpdatePlayer();
-            enemy.UpdateEnemy(player.position);
+            enemies.UpdateEnemies(player.position);
             window.Swap();
         }
     }

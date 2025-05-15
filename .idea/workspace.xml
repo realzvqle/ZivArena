@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f0487b1-bc26-4ff6-ac1a-61300ff39ae4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/zivarena/Enemies.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/zivarena/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zivarena/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/zivarena/Object.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zivarena/Object.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zivarena/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zivarena/Game.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
